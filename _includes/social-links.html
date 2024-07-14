@@ -109,6 +109,12 @@
         </a>
     {% endif %}
 
+    {% if site.fourthwall %}
+        <a class="link" data-title="Merch" href="https://{{site.fourthwall}}.fourthwall.com/" target="_blank">
+            <i class="fa-solid fa-bag-shopping"><use xlink:href="#fa-bag-shopping"></use></i>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
             <i class="fa-solid fa-envelope"><use xlink:href="#fa-mail"></use></i>
